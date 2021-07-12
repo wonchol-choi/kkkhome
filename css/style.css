@@ -1,0 +1,181 @@
+@chraset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "맑은 고딕";
+}
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	height: 130px;
+}
+.logo {
+	height: 100px;
+	float: left;
+}
+.logo>a>img {
+	width: 250px;
+}
+nav {
+	margin-top: 30px;	
+}
+nav>ul {
+	width:600px;
+	overflow: hidden;
+	
+}
+nav>ul>li {
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+nav>ul>li>a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+.dropdown:hover {
+	background-color: #7b422e;
+	color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+	display:block;
+}
+.dropdown-content a {
+	display: block;
+	text-align: center;	
+}
+.dropdown-content a:hover {
+	background-color: #bb692d;
+}
+.dropdown>ul {
+	display: none;
+	background-color: rgba(255,255,255,0.8);
+	width:200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#imageslide {
+	position: relative;
+	height: 400px;
+}
+
+.welcome {
+	position:absolute;
+	margin: -50px 0 0 -150px;
+	background-color:rgba(255,255,255,0.8);
+	text-align:center;
+	border-radius:10px;
+	line-height:50px;
+	left:50%;
+	top:50%;
+	width:300px;
+	height: 100px;
+}
+.welcome>h2 {
+	font-size: 1.2em;
+}
+#contents {
+	height: 500px;
+	overflow: hidden;
+}
+.notice {
+	width: 480px;
+	margin-top: 20px;
+	float: left;
+}
+.notice>h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+}
+table {
+	border-collapse:collapse;
+	font-size: 0.9em;
+	color: #666666;
+	width: 430px;
+}
+table tr>th {
+	padding: 5px 0;
+}
+table tr>td {
+	padding: 5px;
+}
+table tr:nth-child(2n) {
+	background-color: rgba(153,153,102,0.5);
+}
+.partner {
+	margin-top: 20px;
+	float: right;
+	width: 480px;
+}
+.partner>h2 {
+	text-align: center;
+}
+.partner_info {
+	margin-top: 10px;
+	padding-left: 20%;
+}
+
+.icon {
+	margin-top: 20px;
+	clear: both;
+}
+.icons {
+	text-align: center;
+}
+.btn {
+	width: 160px;
+	display: inline-block;
+	margin: 0 20px;
+}
+.btn>img {
+	width:100%;
+}
+button {
+	cursor: pointer;
+	background-color: #bb692d;
+	color:#ffffff;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px;
+}
+footer {
+	height: 150px;
+	margin-top: 30px;
+	background-color: #bb692d;
+	color:#fff;
+	overflow: hidden;
+	padding: 10px 20px;
+}
+footer>ul {
+	width:60%;
+	float: left;
+}
+footer>ul>li {
+	float: left;
+	margin-top: 30px;
+	padding-right: 20px;
+}
+footer>p {
+	width: 40%;
+	float: right;
+	font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
